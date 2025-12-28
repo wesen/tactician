@@ -1,0 +1,30 @@
+{
+  "name": "tactician-cli",
+  "version": "1.0.0",
+  "description": "Decompose software projects into task DAGs using reusable tactics",
+  "main": "src/index.js",
+  "bin": {
+    "tactician": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link": "npm link"
+  },
+  "keywords": [
+    "cli",
+    "project-management",
+    "task-graph",
+    "tactics",
+    "dag"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.2",
+    "openai": "^6.15.0",
+    "ora": "^9.0.0",
+    "yaml": "^2.8.2"
+  }
+}
